@@ -12,22 +12,22 @@
     
 <body>
     <header class="container">
-        <img src="/img/header_logo.png" alt="Header Logo">
+        <img src="img/header_logo.png" alt="Header Logo">
         <h2>横暴編集部 プロローグ</h2>
     </header>
 
     <div id="comic-container">
         <div id="comic-pages">
         <div class="comic-page">
-            <img src="/img/page_1.png" alt="Page 1">
+            <img src="img/page_1.png" alt="Page 1">
             <p>ここは横暴編集部。今日も憂鬱な<br>企画会議が始まります</p>
         </div>
         <div class="comic-page">
-            <img src="/img/page_2.png" alt="Page 2">
+            <img src="img/page_2.png" alt="Page 2">
             <p>売れる企画のために白熱の議論をしている<br>...はずが、ヤツがやってきました</p>
         </div>
         <div class="comic-page">
-            <img src="/img/page_3.png" alt="Page 3">
+            <img src="img/page_3.png" alt="Page 3">
             <p>「有名タイトルをくっつけて、新しい企画<br>作ろうぜ！」...横暴編集会議の始まりはじまり
             </p>
         </div>
@@ -50,7 +50,7 @@
         currentPage++;
         if (currentPage >= totalPageCount) {
         // Go to next comic HTML page
-        window.location.href = '/html/janken_rich.html';
+        window.location.href = 'html/janken_rich.html';
         return;
         }
         const newMargin = -currentPage * 600;
